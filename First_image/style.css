@@ -1,0 +1,103 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.image-gestion img {
+  width: 67px;
+  height: 67px;
+  margin-top: 400px;
+  margin-left: 20px;
+  gap: 24px;
+}
+
+.image-gestion h2 {
+  color: #ffffff;
+}
+
+.image-gestion p{
+    width: 633px;
+    height: 90px;
+    color: #C3C3C3;
+    line-height: 25px;
+}
+
+.first_page {
+  align-items: center;
+  margin-left: 60px;
+}
+
+.first_page h3 {
+  width: 190px;
+  height: 45px;
+  margin-top: 100px;
+}
+.first_page a img {
+  width: 65px;
+  height: 40px;
+  margin-top: 74px;
+}
+
+.form-connexion {
+  width: 445px;
+  height: 322px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-connexion label {
+  color: #6b7280;
+}
+.form-connexion input {
+  padding-left: 30px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.email input {
+  background-image: url(../images/mail.svg);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+
+.password input {
+  background-image: url(../images/security-lock.svg);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+
+.lienMot_Pass {
+  margin-top: 15px;
+  width: 350px;
+  height: 10px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #6b7280;
+}
+
+.form-connexion button {
+  padding: 10px;
+  background-color: #f7cb48;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-connexion button:hover {
+  background-color: #e6b93c;
+}
+
+.image-gestion {
+  background-image: url(../images/image-connexion.png);
+  background-size: 100% 100%;
+  background-color: linear-gradient(#000000, #000000);
+}

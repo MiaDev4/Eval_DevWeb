@@ -1,0 +1,112 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.first_parti {
+  background-image: url(../images/background-sidebar.svg);
+  margin-left: 30px;
+}
+.first_parti.little_img {
+  display: block;
+  width: 200px;
+  margin-top: 200px;
+}
+
+.first_parti a img {
+  margin-bottom: 20px;
+  width: 42px;
+  height: 25px;
+  margin-left: 24px;
+}
+
+.little_img .image:nth-child(1),
+.little_img .image:nth-child(2),
+.little_img .image:nth-child(3),
+.little_img .image:nth-child(4),
+.little_img .image:nth-child(5),
+.little_img .image:nth-child(6) {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.little_img .image:nth-last-child(1) {
+  margin-top: 500px;
+}
+.second_parti_img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  gap: 10px;
+  margin: 20px;
+}
+.images img {
+  width: 100%;
+  height: auto;
+}
+.images h3,
+h2,
+p {
+  color: #000000;
+  width: 200px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.second_parti input:nth-child(1) {
+  background-image: url(../images/avatar.png);
+  background-repeat: no-repeat;
+  background-position: 800px center;
+  background-size: 20px 20px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d0d5dd;
+  padding-left: 10px;
+}
+.second_parti input:nth-child(2) {
+  background-image: url(../images/search.svg);
+  background-repeat: no-repeat;
+  background-position: 8px;
+  background-size: 20px 20px;
+  width: 17.5%;
+  height: 40px;
+  border: 1px solid #d0d5dd;
+  padding-left: 25px;
+}
+
+.second_parti input:nth-child(3),
+.second_parti input:nth-child(4),
+.second_parti input:nth-child(5),
+.second_parti input:nth-child(6) {
+  background-image: url(../images/chervon-bas.svg);
+  background-repeat: no-repeat;
+  background-position: 80px;
+  background-size: 10px 10px;
+  width: 8%;
+  height: 40px;
+  border: 1px solid #d0d5dd;
+  padding-left: 5px;
+}
+.second_parti button {
+  width: 100px;
+  height: 40px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.second_parti input:nth-last-child(1) {
+  background-image: url(../images/add-01\ .svg);
+  background-repeat: no-repeat;
+  background-position: 8px;
+  background-color: #f7cb48;
+  padding-left: 30px;
+  height: 40px;
+  margin-left: 40px;
+}
